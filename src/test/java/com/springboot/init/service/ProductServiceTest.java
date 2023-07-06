@@ -1,10 +1,5 @@
 package com.springboot.init.service;
 
-import com.springboot.init.data.dto.ProductDto;
-import com.springboot.init.data.dto.ProductResponseDto;
-import com.springboot.init.data.entity.Product;
-import com.springboot.init.data.repository.ProductRepository;
-import com.springboot.init.service.impl.ProductServiceImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -14,7 +9,6 @@ import java.util.Optional;
 
 import static org.mockito.AdditionalAnswers.returnsFirstArg;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.verify;
 
 public class ProductServiceTest {

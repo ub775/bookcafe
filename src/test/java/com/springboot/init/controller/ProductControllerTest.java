@@ -1,9 +1,6 @@
 package com.springboot.init.controller;
 
 import com.google.gson.Gson;
-import com.springboot.init.data.dto.ProductDto;
-import com.springboot.init.data.dto.ProductResponseDto;
-import com.springboot.init.service.impl.ProductServiceImpl;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
