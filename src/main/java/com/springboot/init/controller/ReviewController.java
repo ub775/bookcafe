@@ -1,7 +1,6 @@
 package com.springboot.init.controller;
 
 import com.springboot.init.data.dto.*;
-import com.springboot.init.data.repository.ReviewRepository;
 import com.springboot.init.service.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

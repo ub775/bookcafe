@@ -27,8 +27,8 @@ public class SwaggerConfiguration {
 
     private ApiInfo apiInfo(){
         return new ApiInfoBuilder()
-                .title("Spring Boot Template Project")
-                .description("스프링부트 기반 백엔드 템플릿 프로젝트")
+                .title("BookCafe Project")
+                .description("책 리뷰 관리 서비스")
                 .version("1.0.0")
                 .build();
     }
